@@ -3,7 +3,7 @@ draft: true
 ---
 
 
-# nekontam.com - Content Repository
+# gpunkt.org - Content Repository
 
 Bosnisch-Deutsches Wörterbuch.
 
@@ -16,11 +16,11 @@ Bosnisch-Deutsches Wörterbuch.
 
 1. Einträge lokal schreiben in diesem Repository
 2. Push to main → GitHub Actions
-3. Automatischer Sync zu [nekontam-site](https://github.com/alemsabic/nekontam-site)
-4. Cloudflare Pages build → Live auf [nekontam.com](https://nekontam.com)
+3. Automatischer Sync zu [gpunkt-site](https://github.com/alemsabic/gpunkt-site)
+4. Cloudflare Pages build → Live auf [gpunkt.org](https://gpunkt.org)
 
 ## Deployment
 
-- **Display Repo:** [alemsabic/nekontam-site](https://github.com/alemsabic/nekontam-site)
-- **Live Site:** [nekontam.com](https://nekontam.com)
+- **Display Repo:** [alemsabic/gpunkt-site](https://github.com/alemsabic/gpunkt-site)
+- **Live Site:** [gpunkt.org](https://gpunkt.org)
 - **Engine:** Quartz v4

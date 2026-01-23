@@ -18,7 +18,7 @@ jobs:
       - name: Checkout Quartz repository
         uses: actions/checkout@v4
         with:
-          repository: alemsabic/nekontam-site
+          repository: alemsabic/gpunkt-site
           token: ${{ secrets.QUARTZ_REPO_TOKEN }}
           path: quartz-repo
           ref: v4
@@ -43,7 +43,7 @@ jobs:
             git add content/
             git commit -m "content: sync from content repo
 
-            Auto-synced from nekontam.com content repository
+            Auto-synced from gpunkt.org content repository
 
             🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
