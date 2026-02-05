@@ -2,13 +2,13 @@
 .DS_Store
 
 # Privates nested Repository
-
+wort-fabrik/
 
 # Tool-spezifische Ordner
 .obsidian/
 .claude/
 .gemini/
-wort-fabrik/
+
 
 # Interne Dokumentation
 CLAUDE.md
