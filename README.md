@@ -3,9 +3,9 @@ draft: true
 ---
 
 
-# gpunkt.org - Content Repository
+# gpunkt.org - Reizwörter
 
-Bosnisch-Deutsches Wörterbuch.
+Der Duden für die dunklen Ecken der Sprache.
 
 ## Struktur
 
