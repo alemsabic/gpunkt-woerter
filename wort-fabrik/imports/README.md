@@ -4,15 +4,15 @@
 
 ## Workflow
 
-1. **verify_citations.py findet fehlende Citations**
+1. **5-VERIFY.py findet fehlende Citations**
    ```bash
    cd /Users/alemsabic/Desktop/MEMEX/WÖRTER
-   python3 wort-fabrik/verify_citations.py
+   python3 wort-fabrik/5-VERIFY.py
    ```
 
 2. **Stubs generieren**
    ```bash
-   python3 wort-fabrik/verify_citations.py --fix
+   python3 wort-fabrik/5-VERIFY.py --fix
    ```
    → Erstellt `to_zotero.bib` mit Stubs für fehlende Citekeys
 
