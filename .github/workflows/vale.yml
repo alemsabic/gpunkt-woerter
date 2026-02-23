@@ -1,0 +1,21 @@
+name: Vale
+
+on:
+  push:
+    paths: ['*.md']
+  pull_request:
+    paths: ['*.md']
+
+jobs:
+  vale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: errata-ai/vale-action@v2.1.1
+        with:
+          files: '.'
+          reporter: github-pr-review
+          fail_on_error: true
+          filter_mode: added      # nur geänderte Zeilen in PRs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
