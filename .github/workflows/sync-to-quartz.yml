@@ -21,7 +21,7 @@ jobs:
           repository: alemsabic/gpunkt-site
           token: ${{ secrets.QUARTZ_REPO_TOKEN }}
           path: quartz-repo
-          ref: v4
+          ref: v5
 
       - name: Sync content files
         run: |
